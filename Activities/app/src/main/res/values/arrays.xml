@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="selector">
+        <item>Selector:</item>
+        <item>Ej1: Intents Explícitos</item>
+        <item>Ej2: Save State</item>
+    </string-array>
+</resources>
