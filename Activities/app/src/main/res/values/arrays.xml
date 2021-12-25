@@ -4,5 +4,6 @@
         <item>Selector:</item>
         <item>Ej1: Intents Explícitos</item>
         <item>Ej2: Save State</item>
+        <item>Ej3: Evitar Recrear en cambio de orientación</item>
     </string-array>
 </resources>

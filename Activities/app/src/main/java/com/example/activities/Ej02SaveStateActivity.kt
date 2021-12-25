@@ -9,6 +9,7 @@ import com.example.activities.databinding.ActivityEj02SaveStateBinding
 
 private const val KEY_CONTADOR = "contador"
 
+
 class Ej02SaveStateActivity : AppCompatActivity() {
 
     private lateinit var binding: ActivityEj02SaveStateBinding
@@ -30,7 +31,10 @@ class Ej02SaveStateActivity : AppCompatActivity() {
         binding.textView.text = "$contador"
     }
 
-    override fun onSaveInstanceState(outState: Bundle) {
+
+    /** Métodos para guardar y recuperar el estado: */
+
+/*    override fun onSaveInstanceState(outState: Bundle) {
         super.onSaveInstanceState(outState)
         outState.putInt(KEY_CONTADOR, contador)
     }
@@ -39,6 +43,6 @@ class Ej02SaveStateActivity : AppCompatActivity() {
         super.onRestoreInstanceState(savedInstanceState)
         contador = savedInstanceState.getInt(KEY_CONTADOR)
         displayContador()
-    }
+    }*/
 
 }

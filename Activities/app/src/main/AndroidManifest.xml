@@ -10,6 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Activities">
         <activity
+            android:name=".Ej03PreventRecreationActivity"
+            android:configChanges="orientation|screenSize"
+            android:exported="false" />
+        <activity
             android:name=".Ej01bSegundaActivity"
             android:exported="false" />
         <activity
@@ -23,6 +27,7 @@
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
